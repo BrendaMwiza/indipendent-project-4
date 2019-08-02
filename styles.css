@@ -1,3 +1,10 @@
-.jumbotron{
-    background-image: url("pcs/images(6)");
+body{
+    background-color: darkgrey;
+}
+.container{
+    text-align: center;
+    background-image: url("pcs/images(158)");
+    color: black;
+    height: 200px;
+    font-weight: bolder;
 }
