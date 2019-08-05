@@ -47,7 +47,7 @@ document.getElementById("submit").addEventListener("click", function() {
         alert("You canceled the order");
     }
     else{
-        alert("You made no choice.")
+        alert("You made no choice!")
     }
         
 
