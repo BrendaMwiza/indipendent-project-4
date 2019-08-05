@@ -16,30 +16,38 @@ console.log(mediumSize);
 console.log(largeSize);
 console.log(extraLargeSize);
 
+var size = $("select#size").val();
+var crustName = $("select#crust").val();
+var topings = $("select#toping").val();
+var number = $("select#number").val();
 
 
 
 document.getElementById("submit").addEventListener("click", function() {
     var location = prompt("pease enter your location:", " ");
-    if(size==small){
-        alert("Hello " + "the amout you have to pay is" + "$" + smallSize.correspondingPrice );
+
+    if(size == "small"){
+        alert("Hello" + "the amout you have to pay is" + smallSize.correspondingPrice );
 
     }
-    else if(size==medium){
-        alert("Hello " + "the amout you have to pay is" + "$" + mediumSize.correspondingPrice );
+    else if(size == "medium"){
+        alert("Hello " + "the amout you have to pay is" + mediumSize.correspondingPrice );
 
     }
-    else if(size==large){
-        alert("Hello " + "the amout you have to pay is" + "$" + largeSize.correspondingPrice );
+    else if(size == "large"){
+        alert("Hello " + "the amout you have to pay is" + largeSize.correspondingPrice );
 
     }
-    else if(size==extraLarge){
-        alert("Hello " + "the amout you have to pay is" + "$" + extraLargeSize.correspondingPrice );
+    else if(size == "extraLarge"){
+        alert("Hello " + "the amout you have to pay is" + extraLargeSize.correspondingPrice );
 
+    }
+    else if(location == null || location == ""){
+        alert("You canceled the order");
     }
     else{
-        alert("You canceled the order");
-    };
+        alert("thank you for making a better choice.")
+    }
         
 
 });
