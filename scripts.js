@@ -28,26 +28,26 @@ document.getElementById("submit").addEventListener("click", function() {
     
     var size = $("select#size").val();
     if(size === "small"){
-        alert("Hello" + "the amout you have to pay is" + smallSize.correspondingPrice );
+        alert("Hello" +" "+ "the amout you have to pay is"+" "+  "$" + smallSize.correspondingPrice );
 
     }
     else if(size === "medium"){
-        alert("Hello " + "the amout you have to pay is" + mediumSize.correspondingPrice );
+        alert("Hello " +" "+ "the amout you have to pay is" +" "+ "$" + mediumSize.correspondingPrice );
 
     }
     else if(size === "large"){
-        alert("Hello " + "the amout you have to pay is" + largeSize.correspondingPrice );
+        alert("Hello " +" "+  "the amout you have to pay is" +" "+ "$" + largeSize.correspondingPrice );
 
     }
     else if(size === "extraLarge"){
-        alert("Hello " + "the amout you have to pay is" + extraLargeSize.correspondingPrice );
+        alert("Hello " +" "+  "the amout you have to pay is" +" "+ "$" + extraLargeSize.correspondingPrice );
 
     }
     else if(location == null || location == ""){
         alert("You canceled the order");
     }
     else{
-        alert("thank you for making a better choice.")
+        alert("You made no choice.")
     }
         
 
