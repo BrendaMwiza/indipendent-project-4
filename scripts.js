@@ -10,3 +10,7 @@ var smallSize = new order("small", "crust", "toping", "number", $12);
 var mediumSize = new order("medium", "crust", "toping", "number", $14);
 var largeSize = new order("large", "crust", "toping", "number", $16);
 var extraLargeSize = new order("extralarge", "crust", "toping", "number", $30);
+
+
+document.getElementById("submit").innerHTML =
+"you will have to pay " + smallSize.price + "."; 
