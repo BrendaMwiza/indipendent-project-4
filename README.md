@@ -25,7 +25,7 @@
   . Permission is granted and free of charge to any person obtaining a copy. 
 
 # BDD
-    Input: for one to order and get their order, they have to fill the form and get fill the requirements.
+    Input: for one to order and get their order, they have to fill the form and put the requirements.
     output: then you will be promted to inter your location and the price price to be payed.
     
 # Contacts
