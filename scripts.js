@@ -13,4 +13,7 @@ var extraLargeSize = new order("extralarge", "crust", "toping", "number", $30);
 
 
 document.getElementById("submit").innerHTML =
-"you will have to pay " + smallSize.price + "."; 
+"you will have to pay " + smallSize + ".";
+"you will have to pay " + mediumSize + "."; 
+"you will have to pay " + largeSize + ".";
+"you will have to pay " + extraLargeSize + ".";
